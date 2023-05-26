@@ -1,0 +1,970 @@
+#sayfa{
+    
+    position: relative;
+    width: 1905px;
+    height: 5064px;
+    
+    background: #FFFFFF;
+    }
+    
+    #logo{
+        
+    position: absolute;
+    left: 0px;
+    top: -46px;
+    
+    }
+    
+    #en{
+        
+    position: absolute;
+    width: 62px;
+    height: 98px;
+    left: 1334px;
+    top: 52px;
+    
+    font-family: 'Javanese Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43.1304px;
+    line-height: 98px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    }
+    
+    #araicon{
+        
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1433px;
+    top: 71px;
+    font-size: 43px;
+    
+    }
+    
+    #aratxt{
+        
+    position: absolute;
+    width: 67px;
+    height: 98px;
+    left: 1494px;
+    top: 52px;
+    
+    font-family: 'Javanese Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43.1304px;
+    line-height: 98px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    }
+
+    /* hamburger menü */
+
+   
+  .nav {
+    background:#FF7A00;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%; /* 100% = fullscreen */
+    height: 100vh;
+    transition: transform 0.7s, opacity 1s;
+    transform: translateX(100%);
+    opacity: 0;
+    z-index: 4;
+  }
+  
+  .nav.show {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .hm1{
+
+    
+position: absolute;
+left: 200px;
+top: 500px;
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 700;
+font-size: 33.7552px;
+line-height: 49px;
+color: white;
+
+
+  }
+
+  .hm1:hover{
+    color: #5E2F03;
+  }
+
+
+
+  .hm2{
+
+    position: absolute;
+left: 200px;
+top: 600px;
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 700;
+font-size: 33.7552px;
+line-height: 49px;
+color: white;
+
+
+  }
+
+
+ .hm2:hover{
+  color: #5E2F03;
+ }
+
+ .hm3{
+
+  position: absolute;
+  left: 200px;
+  top: 700px;
+  
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.7552px;
+  line-height: 49px;
+  color: white;
+
+ }
+
+ .hm3:hover{
+  color: #5E2F03;
+ }
+
+
+ .hm4{
+
+  position: absolute;
+  left: 200px;
+  top: 800px;
+  
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.7552px;
+  line-height: 49px;
+  color: white;
+
+ }
+
+ .hm4:hover{
+  color: #5E2F03;
+ }
+
+ .hm5{
+
+  position: absolute;
+  left: 85px;
+  top: 900px;
+  
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.7552px;
+  line-height: 49px;
+  color: white
+
+ }
+
+ .hm5:hover{
+  color: #5E2F03;
+ }
+
+
+ 
+
+  .hamburger {
+    position: absolute;
+width: 61px;
+height: 61px;
+left: 1591px;
+top: 66px;
+z-index: 6;
+border-width: 0px;
+border-color: #FFFFFF;
+
+  }
+  
+  .hamburger span {
+    position: absolute;
+    left: 0;
+    background: #000000;
+    width: inherit;
+    height: 5px;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+
+ 
+
+  
+  .top-line {
+    top: 7px;
+  }
+  
+  .center-line {
+    top: 25px ;
+  }
+  
+  .bottom-line {
+    bottom: 9px;
+  }
+  
+  .top-line.active {
+    transform: translateY(10px) rotate(35deg);
+  }
+  
+  .center-line.active {
+    opacity: 0;
+  }
+  
+  .bottom-line.active {
+    transform: translateY(-10px) rotate(-35deg);
+  }
+
+  ul { list-style-type:none; }
+
+
+      
+
+
+
+    /* hamburger menü */
+    
+    #banner{
+        
+    position: absolute;
+    left: -61px;
+    top: 173px;
+    
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: #eaeaea;
+        border-left: 1px solid #ccc;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #5E2F03;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #FF7A00;
+    }
+    
+    #astxt{
+        position: absolute;
+    width: 151px;
+    height: 49px;
+    left: 584px;
+    top: 910px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.7552px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #astxt:hover{
+        color: #5E2F03;
+    }
+    
+    #etkinliklertxt{
+        
+    position: absolute;
+    width: 177px;
+    height: 49px;
+    left: 772px;
+    top: 910px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.7552px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #etkinliklertxt:hover{
+        color: #5E2F03;
+    }
+    
+    #hakkimizdatxt{
+        
+    position: absolute;
+    width: 197px;
+    height: 49px;
+    left: 988px;
+    top: 910px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.7552px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #hakkimizdatxt:hover{
+        color: #5E2F03;
+    }
+    
+    #tumu{
+        
+    position: absolute;
+    width: 97px;
+    height: 49px;
+    left: 1224px;
+    top: 910px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.7552px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #tumu:hover{
+    
+        color: #5E2F03;
+    }
+
+
+
+    #box1{
+
+        
+position: absolute;
+width: 681px;
+height: 648px;
+left: 573px;
+top: 1043px;
+
+background: #FF7A00;
+
+
+    }
+
+
+    #box2{
+        
+position: absolute;
+width: 681px;
+height: 648px;
+left: 573px;
+top: 1799px;
+
+background: #FF7A00;
+    }
+
+
+    #box3{
+        
+position: absolute;
+width: 681px;
+height: 648px;
+left: 573px;
+top: 2555px;
+
+background: #FF7A00;
+    }
+
+    #yazi1{
+        
+position: absolute;
+width: 511px;
+height: 83px;
+left: 658px;
+top: 1703px;
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 700;
+font-size: 57.37px;
+line-height: 83px;
+/* identical to box height */
+
+
+color: #000000;
+
+    }
+
+    #yazi2{
+        
+position: absolute;
+width: 511px;
+height: 83px;
+left: 638px;
+top: 2448px;
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 700;
+font-size: 57.37px;
+line-height: 83px;
+/* identical to box height */
+
+
+color: #000000;
+
+    }
+
+    #yazi3{
+        
+position: absolute;
+width: 511px;
+height: 83px;
+left: 625px;
+top: 3235px;
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 700;
+font-size: 57.37px;
+line-height: 83px;
+/* identical to box height */
+
+
+color: #000000;
+
+    }
+
+    #mami{
+        
+position: absolute;
+width: 586px;
+height: 568px;
+left: 620px;
+top: 1083px;
+
+    }
+
+    #omur{
+
+        
+position: absolute;
+width: 586px;
+height: 503.54px;
+left: 620px;
+top: 1893px;
+
+
+        
+
+
+        
+
+    }
+
+    
+    #apo{
+        
+position: absolute;
+width: 568px;
+height: 568px;
+left: 629px;
+top: 2599px;
+    }
+
+
+   
+
+
+
+
+
+    
+    #box{
+        position: absolute;
+    width: 1926px;
+    height: 380px;
+    left: -21px;
+    top: 3379px;
+    
+    background: #F2EBDF;
+    }
+    
+    #ich{
+        
+    position: absolute;
+    width: 481px;
+    height: 58px;
+    left: 173px;
+    top: 3398px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #ichtxt{
+        
+    position: absolute;
+    width: 1023px;
+    height: 58px;
+    left: 173px;
+    top: 3471px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    }
+    
+    #eposta{
+        
+    position: absolute;
+    width: 111px;
+    height: 43px;
+    left: 185px;
+    top: 3569px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    
+    color: #757575;
+    
+    }
+    
+    #epostaline{
+        
+    position: absolute;
+    width: 1420px;
+    height: 0px;
+    left: 173px;
+    top: 3639px;
+    
+    border: 1px solid #000000;
+    }
+    
+    #icm{
+        
+    position: absolute;
+    width: 486px;
+    height: 70px;
+    left: 185px;
+    top: 3844px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #icu{
+        
+    position: absolute;
+    width: 601px;
+    height: 70px;
+    left: 185px;
+    top: 3929px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+    
+    }
+    
+    #adres{
+        
+    position: absolute;
+    width: 1097px;
+    height: 52px;
+    left: 185px;
+    top: 4014px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #tlfn{
+        
+    position: absolute;
+    width: 498px;
+    height: 52px;
+    left: 185px;
+    top: 4077px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #epostaa{
+        
+    position: absolute;
+    width: 556px;
+    height: 52px;
+    left: 185px;
+    top: 4156px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #konumicon{
+        
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 185px;
+    top: 4235px;
+    font-size: 36px;
+    color: #FF7A00;
+    
+    }
+    
+    #yta{
+        
+    position: absolute;
+    width: 218px;
+    height: 52px;
+    left: 219px;
+    top: 4230px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #FF7A00;
+    
+    }
+
+    #igicon{
+
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      left: 185px;
+      top: 4365px;
+      color: #FF7A00;
+      font-size: 36px;
+      
+  }
+  
+  #fcicon{
+      position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 235px;
+  top: 4365px;
+  color: #FF7A00;
+  font-size: 36px;
+  
+  }
+  
+  #twicon{
+      
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 285px;
+  top: 4365px;
+  color: #FF7A00;
+  font-size: 36px;
+  
+  }
+  
+  #yticon{
+      
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 335px;
+  top: 4365px;
+  color: #FF7A00;
+  font-size: 36px;
+  
+  }
+  
+    
+    #destekoltxt{
+        
+    position: absolute;
+    width: 171px;
+    height: 52px;
+    left: 117px;
+    top: 4502px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #ziyaret{
+        
+        position: absolute;
+        width: 126px;
+        height: 52px;
+        left: 110px;
+        top: 4568px;
+        
+        font-family: 'Kaisei Decol';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        
+        color: #000000;
+        
+    
+    }
+    
+    #msa{
+        
+    position: absolute;
+    width: 346px;
+    height: 52px;
+    left: 117px;
+    top: 4636px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #sve{
+        
+    position: absolute;
+    width: 391px;
+    height: 52px;
+    left: 117px;
+    top: 4698px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #uyelik{
+        
+    position: absolute;
+    width: 115px;
+    height: 52px;
+    left: 1394px;
+    top: 4490px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #magaza{
+        
+    position: absolute;
+    width: 131px;
+    height: 52px;
+    left: 1386px;
+    top: 4558px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #gac{
+        
+    position: absolute;
+    width: 377px;
+    height: 52px;
+    left: 1386px;
+    top: 4630px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    }
+    
+    #bvm{
+        
+    position: absolute;
+    width: 278px;
+    height: 52px;
+    left: 1386px;
+    top: 4698px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+    
+    
+    
+    }
+    
+    #kvkk{
+        
+    position: absolute;
+    width: 106px;
+    height: 52px;
+    left: 455px;
+    top: 4926px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #757575;
+    
+    }
+    
+    
+    #gp{
+        
+    position: absolute;
+    width: 303px;
+    height: 52px;
+    left: 620px;
+    top: 4926px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #757575;
+    
+    }
+    
+    #txt1{
+        
+    position: absolute;
+    width: 451px;
+    height: 52px;
+    left: 982px;
+    top: 4926px;
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #757575;
+    
+    }
+    
+    
+    
+    
+    
+    
